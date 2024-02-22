@@ -1,84 +1,42 @@
 <!--Html Tag-->
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Perkenalan HTML</title>
-</head>
-<body>
+ <head>
+     <title>Perkenalan HTML</title>
+ </head>
+ <body>
     <h1>Membuat HTML itu Gampang</h1>
-</body>
-</html>
 
-<!--Html Elemen-->
-<p class="paragraph">Hello World</p>
+    <!--Html Elemen-->
+    <p class="paragraph">Hello World</p>
 
-<!--Html Attribute-->
-<a href="https://www.wikipedia.org">Hello Wikipedia</a>
+    <!--Html Attribute-->
+    <a href="https://www.wikipedia.org">Hello Wikipedia</a>
 
-<!--Html Comment-->
-<html>
-  <head>
-    <title>Website Pribadiku</title>
-  </head>
-  <body>
-    <!-- <p>Halo semua! Namaku Sarah!</p> -->
-  </body>
-</html>
+    <!--Html Comment-->
+        <!-- <p>Halo semua! Namaku Sarah!</p> -->
 
-<!--Html Heading-->
-<h1>Hello Kitty</h1>
+    <!--Html Heading-->
+    <h1>Hello Kitty</h1>
 
-<!--Html Paragraph-->
-<p>Hello Paragraph</p>
+    <!--Html Paragraph-->
+    <p>Hello Paragraph</p>
 
-<!--html Link/Anchor-->
-<a id="link1" href="https://www.google.com">Welcome to Google!</a>
-<a id="link2" href="https://www.wikipedia.com">Welcome to Wikipedia!</a>
+    <!--html Link/Anchor-->
+    <a id="link1" href="https://www.google.com">Welcome to Google!</a>
+    <a id="link2" href="https://www.wikipedia.com">Welcome to Wikipedia!</a>
 
-<!--Html Span-->
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Span</title>
-  </head>
-  <body>
-
-    <!-- Perbaikilah element berikut-->
+    <!--Html Span-->
     <p>Mobil <span style="color:red">merah </span> itu sangat cepat</p>
-  
-  </body>
-</html>
 
-<!--Html Huruf Tebal-->
-<p>Dia sangat <b>kuat</b></p>
-
-<!--Html Huruf Miring-->
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Huruf Miring</title>
-  </head>
-  <body>
-
+    <!--Html Huruf Miring-->
     <p>Semut termasuk kelompok serangga yang merupakan anggota keluarga dari <i>Artropoda</i></p>
-  
-  </body>
-</html>
 
-<!--Html List-->
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>List</title>
-  </head>
-  <body>
-
-    <!-- 1. Ubah list paling luar menjadi unordered list -->
+    <!--Html List-->
     <ul>
       <li>Kopi</li>
       <li>
         Teh
-        <!-- 2. Ubah list di dalam Teh menjadi ordered list -->
         <ol>
           <li>Teh Hitam</li>
           <li>Teh Hijau</li>
@@ -86,112 +44,85 @@
       </li>
       <li>Susu</li>
     </ul>
+
+    <!--Html Gambar-->
+    <img src="https://bit.ly/2FKluzq" alt="Si kucing">
+
+    <!--Html Video-->
+    <video width="600" height="400" autoplay>
+      <source src="https://bit.ly/3goJEfJ" type="video/mp4" />
+    </video>
+
+    <!--Html Suara-->
+    <audio controls>
+       <source src="https://bit.ly/2EbrKA4" type="audio/mp3" />
+    </audio>
+
+    <!--Html Halaman Website-->
+    <iframe width="300" height="240" src="https://www.wikipedia.org"></iframe>
+
+    <!--Html Tabel-->
+    <table>
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Nilai</th>
+        </tr>
+      </thead>
   
-  </body>
-</html>
+      <tbody>
+        <tr>
+          <td>Sarah</td>
+          <td>10</td>
+       </tr>
+      </tbody>   
+    </table>
 
-<!--Html Gambar-->
-<img src="https://bit.ly/2FKluzq" alt="Si kucing">
-
-<!--Html Video-->
-<video width="600" height="400" autoplay>
-    <source src="https://bit.ly/3goJEfJ" type="video/mp4" />
-</video>
-
-<!--Html Suara-->
-<audio controls>
-    <source src="https://bit.ly/2EbrKA4" type="audio/mp3" />
-</audio>
-
-<!--Html Halaman Website-->
-<iframe width="300" height="240" src="https://www.wikipedia.org"></iframe>
-
-<!--Html Tabel-->
-<table>
-
-    <thead>
-      <tr>
-        <th>Nama</th>
-        <th>Nilai</th>
-      </tr>
-    </thead>
-  
-    <tbody>
-      <tr>
-        <td>Sarah</td>
-        <td>10</td>
-      </tr>
-    </tbody>
-  
-  </table>
-
-<!--Html Formulir-->
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Form</title>
-  </head>
-  <body>
-
+      <!--Html Formulir-->
     <form>
-      <fieldset>
-        <legend>Contoh Form</legend>
+     <fieldset>
+      <legend>Contoh Form</legend>
 
-        <div>
-          <label>Nama: </label>
-          <input type="text" name="nama" />
-        </div>
+      <div>
+        <label>Nama: </label>
+        <input type="text" name="nama" />
+      </div>
 
-        <div>
-          <p>Jenis Kelamin:</p>
-          <input type="radio" value="laki-laki" checked />
-          <label>Laki - Laki</label>
-          <input type="radio" name="jenis_kelamin" value="perempuan" />
-          <label>Perempuan</label>
-        </div>
+      <div>
+        <p>Jenis Kelamin:</p>
+        <input type="radio" value="laki-laki" checked />
+        <label>Laki - Laki</label>
+        <input type="radio" name="jenis_kelamin" value="perempuan" />
+        <label>Perempuan</label>
+      </div>
 
-        <div>
-          <p>Bidang yang dikuasai:</p>
-          <input type="checkbox" name="web" /> Web
-          <input type="checkbox" name="mobile" /> Mobile
-          <input type="checkbox" name="desk" /> Desktop
-        </div>
+      <div>
+        <p>Bidang yang dikuasai:</p>
+        <input type="checkbox" name="web" /> Web
+        <input type="checkbox" name="mobile" /> Mobile
+        <input type="checkbox" name="desk" /> Desktop
+      </div>
 
-        <div>
-          <p>Mobil:</p>
-          <select name="mobil">
-            <option value="Volvo">Volvo</option>
-            <option value="Mercedes">Mercedes</option> <!-- Added Mercedes option -->
-          </select>
-        </div>
+      <div>
+        <p>Mobil:</p>
+        <select name="mobil">
+          <option value="Volvo">Volvo</option>
+          <option value="Mercedes">Mercedes</option> <!-- Added Mercedes option -->
+        </select>
+      </div>
 
-        <div>
-          <p>Ceritakan pengalaman anda:</p>
-          <textarea rows="10" cols="60" name="pengalaman" placeholder="Tulis jawaban Anda di sini"></textarea> <!-- Added placeholder attribute -->
-        </div>
+      <div>
+        <p>Ceritakan pengalaman anda:</p>
+        <textarea rows="10" cols="60" name="pengalaman" placeholder="Tulis jawaban Anda di sini"></textarea> <!-- Added placeholder attribute -->
+      </div>
 
-        <input type="submit" value="Submit" />
-      </fieldset>
+      <input type="submit" value="Submit" />
+     </fieldset>
     </form>
-  
-  </body>
-</html>
 
-<!--HTML Layout Website-->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Layout Website</title>
-</head>
-<body>
-
-    <header>
-        My Header
-    </header>
-
+    <!--HTML Layout Website-->
     <nav>
-        <a href="https://skilvul.com">Home</a>
+      <a href="https://skilvul.com">Home</a>
     </nav>
-    
-</body>
+ </body>
 </html>
